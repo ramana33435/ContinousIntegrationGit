@@ -2,7 +2,7 @@
 <html> 
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-<title>Continous Assurance Platform Dev</title> 
+<title>Continous Assurance Platform</title> 
 </head> <body bgcolor="#F5F5DC">
 <img src="images.png" alt="Mountain View" style="width:300px;height:100px;"> 
 <br/><br/><br/><br/><br/> 
