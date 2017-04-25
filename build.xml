@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<project name="ContinousIntegration" default="dist">
+ <property file="build.properties" />
+    <property name="classes" location="build/classes"/>
+    <property name="test-classes" location="build/test-classes"/>
+    <property name="test-reports" location="build/test-reports"/>
+ 
+    <path id="classpath">
+        <fileset dir="WebContent/WEB-INF/lib">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+ 
+    <path id="test-classpath">
+        <path refid="classpath"/>
+        <pathelement location="${classes}"/>
+        <pathelement location="${test-classes}"/>
+        <fileset dir="WebContent/WEB-INF/lib">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+ 
+    <target name="clean">
+        <delete dir="dist"/>
+        <delete dir="build"/>
+    </target>
+ 
+    <target name="compile">
+        <mkdir dir="${classes}"/>
+        <javac destdir="${classes}">
+            <classpath refid="classpath"/>
+            <src path="src"/>
+        </javac>
+        <copy todir="${classes}">
+            <fileset dir="src" excludes="**/*.java"/>
+        </copy>
+    </target>
+ 
+    <target name="test-compile" depends="compile">
+        <mkdir dir="${test-classes}"/>
+        <javac destdir="${test-classes}">
+            <src path="src"/>
+            <classpath refid="test-classpath"/>
+        </javac>
+    </target>
+ 
+    <target name="test" depends="test-compile">
+        <mkdir dir="${test-reports}"/>
+        <junit printsummary="yes" haltonfailure="yes" showoutput="yes">
+            <classpath refid="test-classpath"/>
+            <formatter type="brief" usefile="false"/>
+            <formatter type="xml"/>
+            <batchtest todir="${test-reports}" failureproperty="failed"
+                       errorproperty="failed">
+                <fileset dir="${test-classes}" includes="**/*Test.class"/>
+                 
+            </batchtest>
+            
+        </junit>
+        
+    </target>
+ 
+    <tstamp>
+        <format property="timestamp" pattern="yyyy-MM-dd_hh-mm"/>
+    </tstamp>
+ 
+    <target name="dist" depends="clean, compile, test">
+        <mkdir dir="dist"/>
+        <war destfile="dist/${ant.project.name}.war"
+             basedir="WebContent"
+             excludes="**/CVS">
+            <classes dir="${classes}"/>
+        </war>
+    </target>
+
+    
+<taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask"/>
+<taskdef name="reload" classname="org.apache.catalina.ant.ReloadTask"/>
+<taskdef name="undeploy" classname="org.apache.catalina.ant.UndeployTask"/>
+ 
+ <target name="undeploy" description="Remove web application">
+    <undeploy url="${tomcat.manager.url}" username="${tomcat.manager.username}" password="${tomcat.manager.password}"
+            path="${deploy.path}"/>
+  </target>
+  
+<target name="deploy" description="Install web application"
+          depends="compile">
+        <echo>dist/${ant.project.name}_${timestamp}.war</echo>
+        <echo>${deploy.path}</echo>
+    <deploy url="${tomcat.manager.url}" username="${tomcat.manager.username}" password="${tomcat.manager.password}"
+            path="${deploy.path}" war="dist/${ant.project.name}.war"/>
+  </target>
+
+  <target name="reload" description="Reload web application"
+          depends="compile">
+    <reload  url="${tomcat.manager.url}" username="${tomcat.manager.username}" password="${tomcat.manager.password}"
+            path="${deploy.path}"/>
+  </target>
+	
+ 
+</project>
