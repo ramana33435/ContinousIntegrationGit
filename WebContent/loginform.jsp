@@ -198,7 +198,7 @@ form .btn:hover{
 <form action="LoginCheck.jsp" method="post">
 Enter username :<input type="text" name="username"> <br>
 Enter password :<input type="password" name="password"><br>
-<input type="submit" value="Login">
+<input type="submit" value="Login" name="loginButton">
 </form>
 </center>
 </div>
