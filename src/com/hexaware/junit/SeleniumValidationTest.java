@@ -1,19 +1,17 @@
 package com.hexaware.junit;
+
 import java.util.concurrent.TimeUnit;
+
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class SeleniumTesting {
-	
-	private static WebDriver driver = null;
+public class SeleniumValidationTest {
+private static WebDriver driver = null;
 	
 	@BeforeClass
     public static void setUp(){
@@ -28,8 +26,7 @@ public class SeleniumTesting {
 		
 		ChromeOptions chromeOptions= new ChromeOptions();
 		java.io.File file = new java.io.File("C:\\Users\\18982\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
-		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Jenkins\\" +
-				"jobs\\AntContinousIntegration\\workspace\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Jenkins\\jobs\\AntContinousIntegration\\workspace\\chromedriver.exe");
 		chromeOptions.setBinary(file);
 		//driver = new InternetExplorerDriver();
 		driver = new ChromeDriver(chromeOptions);
@@ -39,9 +36,12 @@ public class SeleniumTesting {
     public void testChromeSelenium() {
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://localhost:8089/ContinousIntegration/");
-        driver.findElement(By.name("username")).sendKeys("hexaware"); 
-        driver.findElement(By.name("password")).sendKeys("hexaware");
-        driver.findElement(By.name("loginButton")).click();
+        String title = driver.getTitle();
+        if(title.equals("Continous Assurance Platform (CAP)")){
+        	System.out.println("Testing Passed");
+        }else{
+        	System.out.println("Test Failed");
+        }
     }
 
     @AfterClass
