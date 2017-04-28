@@ -28,8 +28,7 @@ public class SeleniumTest {
 		
 		ChromeOptions chromeOptions= new ChromeOptions();
 		java.io.File file = new java.io.File("C:\\Users\\18982\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
-		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Jenkins\\" +
-				"jobs\\AntContinousIntegration\\workspace\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Jenkins\\jobs\\AntContinousIntegration\\workspace\\chromedriver.exe");
 		chromeOptions.setBinary(file);
 		//driver = new InternetExplorerDriver();
 		driver = new ChromeDriver(chromeOptions);

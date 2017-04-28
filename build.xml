@@ -55,14 +55,40 @@
                 <fileset dir="${test-classes}" includes="**/*Test.class"/>
                  
             </batchtest>
+        </junit>
+    </target>
+    
+    <target name="seleniumtest" depends="test">
+        <mkdir dir="${test-reports}"/>
+        <junit printsummary="yes" haltonfailure="yes" showoutput="yes">
+            <classpath refid="test-classpath"/>
+            <formatter type="brief" usefile="false"/>
+            <formatter type="xml"/>
+            <batchtest todir="${test-reports}" failureproperty="failed"
+                       errorproperty="failed">
+                <fileset dir="${test-classes}" includes="**/*Testing.class"/>
+                 
+            </batchtest>
             
         </junit>
         
     </target>
+    
+     
+
+         <target name="gen" depends="test">
+                <property name="genReportDir" location="${test-classes}/test-reports"/>
+                <mkdir dir="${genReportDir}"/>
+                <junitreport todir="${test-classes}/test-reports">
+                        <fileset dir="${basedir}">
+                                <include name="**/TEST-*.xml"/>
+                        </fileset>
+                        <report format="frames" todir="${genReportDir}/html"/>
+                </junitreport>
+        </target>
+
  
-    <tstamp>
-        <format property="timestamp" pattern="yyyy-MM-dd_hh-mm"/>
-    </tstamp>
+    
  
     <target name="dist" depends="clean, compile, test">
         <mkdir dir="dist"/>
@@ -79,7 +105,7 @@
 <taskdef name="undeploy" classname="org.apache.catalina.ant.UndeployTask"/>
  
  <target name="undeploy" description="Remove web application">
-    <undeploy url="${tomcat.manager.url}" username="${tomcat.manager.username}" password="${tomcat.manager.password}"
+    <undeploy failonerror="no" url="${tomcat.manager.url}" username="${tomcat.manager.username}" password="${tomcat.manager.password}"
             path="${deploy.path}"/>
   </target>
   

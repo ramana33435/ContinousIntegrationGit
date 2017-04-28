@@ -10,12 +10,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class SeleniumValidationTest {
+public class SeleniumValidationTesting {
 private static WebDriver driver = null;
 	
 	@BeforeClass
     public static void setUp(){
-		System.out.println("Selenium Testing Started");
+		System.out.println("Selenium Validation Testing Started");
 
 		
 		//System.setProperty("webdriver.ie.driver", "D:/IEDriverServer.exe");
@@ -26,7 +26,7 @@ private static WebDriver driver = null;
 		
 		ChromeOptions chromeOptions= new ChromeOptions();
 		java.io.File file = new java.io.File("C:\\Users\\18982\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
-		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Jenkins\\jobs\\AntContinousIntegration\\workspace\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\Jenkins\\workspace\\AntContinousIntegration\\chromedriver.exe");
 		chromeOptions.setBinary(file);
 		//driver = new InternetExplorerDriver();
 		driver = new ChromeDriver(chromeOptions);
