@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="EBIII213F2" id="0" name="JunitSample2Test" package="com.hexaware.junit" skipped="0" tests="2" time="0.017" timestamp="2017-04-28T05:59:17">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="appserver.lib" value="D:/Tomcat 7.0/lib" />
+
+          <property name="ant.file.ContinousIntegration" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build.xml" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes" />
+
+          <property name="test-classes" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build\test-classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Eclise Indigo-2.4\plugins\org.apache.ant_1.8.2.v20110505-1300" />
+
+          <property name="java.runtime.version" value="1.7.0_79-b15" />
+
+          <property name="user.name" value="18982" />
+
+          <property name="tomcat.manager.url" value="http://localhost:8089/manager/text" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ant.project.name" value="ContinousIntegration" />
+
+          <property name="ant.file.type.ContinousIntegration" value="file" />
+
+          <property name="java.version" value="1.7.0_79" />
+
+          <property name="classes" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build\classes" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed" />
+
+          <property name="appserver.home" value="D:/Tomcat 7.0" />
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_79\jre" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="ant.file" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="tomcat.manager.password" value="admin" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="24.79-b02" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Eclise Indigo-2.4\plugins\org.apache.ant_1.8.2.v20110505-1300\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="tomcat.manager.username" value="admin" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts/" />
+
+          <property name="user.home" value="C:\Users\18982" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="D:\Eclise Indigo-2.4;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Program Files\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Borland\StarTeam SDK 11.0\Lib;C:\Program Files\Borland\StarTeam SDK 11.0\Bin;C:\Users\18982\Desktop\Selenium\Jar Files\selenium-java-2.52.0\selenium-2.52.0\libs;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\nodejs\;C:\Program Files\WebEx\Productivity Tools;%JAVA_HOME%bin;C:\Users\18982\Desktop\gradle-2.12\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;D:\Maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;%ANT_HOME%\bin;C:\Users\18982\AppData\Roaming\npm;D:\Eclise Indigo-2.4;;.;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\596\1\.cp" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="builder" value="ContinousIntegration" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1493359067297 -Declipse.connect.port=58924 -Declipse.pdebuild.home=/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/./ -Declipse.pdebuild.scripts=/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts/ -Declipse.pdebuild.templates=/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates/ -Dant.home=D:\Eclise Indigo-2.4\plugins\org.apache.ant_1.8.2.v20110505-1300 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build.xml compile dist undeploy deploy reload test-compile test seleniumtest gen" />
+
+          <property name="java.class.path" value="D:\Tomcat 7.0\lib\catalina-ant.jar;D:\Tomcat 7.0\lib\tomcat-coyote.jar;D:\Tomcat 7.0\lib\tomcat-util.jar;D:\Tomcat 7.0\bin\tomcat-juli.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-antlr.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-bcel.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-bsf.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-log4j.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-oro.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-regexp.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-resolver.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-xalan2.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-commons-logging.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-commons-net.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jai.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-javamail.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jdepend.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jmf.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jsch.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-junit.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-junit4.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-launcher.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-netrexx.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-swing.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-testutil.jar;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\56\1\.cp\lib\antdebug.jar;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\56\1\.cp\lib\remote.jar;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\57\1\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.7.0_79\lib\tools.jar;D:\Eclise Indigo-2.4\plugins\org.eclipse.swt.win32.win32.x86_3.7.1.v3738a.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.9 compiled on February 2 2017" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="eclipse.pdebuild.home" value="/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\18982\AppData\Local\Temp\" />
+
+          <property name="deploy.path" value="/ContinousIntegration" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="project-name" value="ContinousIntegration" />
+
+          <property name="basedir" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="compile,dist,undeploy,deploy,reload,test-compile,test,seleniumtest,gen" />
+
+          <property name="test-reports" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build\test-reports" />
+
+      </properties>
+
+      <testcase classname="com.hexaware.junit.JunitSample2Test" name="test_method_1" time="0.003" />
+
+      <testcase classname="com.hexaware.junit.JunitSample2Test" name="test_method_2" time="0.001" />
+
+      <system-out><![CDATA[@ - runOnceBeforeClass
+@Before - runBeforeTestMethod
+@Test - test_method_1
+@After - runAfterTestMethod
+@Before - runBeforeTestMethod
+@Test - test_method_2
+@After - runAfterTestMethod
+@AfterClass - runOnceAfterClass
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="EBIII213F2" id="1" name="JunitSampleTest" package="com.hexaware.junit" skipped="0" tests="2" time="0.003" timestamp="2017-04-28T05:59:17">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="appserver.lib" value="D:/Tomcat 7.0/lib" />
+
+          <property name="ant.file.ContinousIntegration" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build.xml" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes" />
+
+          <property name="test-classes" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build\test-classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Eclise Indigo-2.4\plugins\org.apache.ant_1.8.2.v20110505-1300" />
+
+          <property name="java.runtime.version" value="1.7.0_79-b15" />
+
+          <property name="user.name" value="18982" />
+
+          <property name="tomcat.manager.url" value="http://localhost:8089/manager/text" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ant.project.name" value="ContinousIntegration" />
+
+          <property name="ant.file.type.ContinousIntegration" value="file" />
+
+          <property name="java.version" value="1.7.0_79" />
+
+          <property name="classes" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build\classes" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed" />
+
+          <property name="appserver.home" value="D:/Tomcat 7.0" />
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_79\jre" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="ant.file" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="tomcat.manager.password" value="admin" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="24.79-b02" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Eclise Indigo-2.4\plugins\org.apache.ant_1.8.2.v20110505-1300\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="tomcat.manager.username" value="admin" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts/" />
+
+          <property name="user.home" value="C:\Users\18982" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="D:\Eclise Indigo-2.4;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Program Files\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Borland\StarTeam SDK 11.0\Lib;C:\Program Files\Borland\StarTeam SDK 11.0\Bin;C:\Users\18982\Desktop\Selenium\Jar Files\selenium-java-2.52.0\selenium-2.52.0\libs;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\nodejs\;C:\Program Files\WebEx\Productivity Tools;%JAVA_HOME%bin;C:\Users\18982\Desktop\gradle-2.12\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;D:\Maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;%ANT_HOME%\bin;C:\Users\18982\AppData\Roaming\npm;D:\Eclise Indigo-2.4;;.;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\596\1\.cp" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="builder" value="ContinousIntegration" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1493359067297 -Declipse.connect.port=58924 -Declipse.pdebuild.home=/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/./ -Declipse.pdebuild.scripts=/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts/ -Declipse.pdebuild.templates=/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates/ -Dant.home=D:\Eclise Indigo-2.4\plugins\org.apache.ant_1.8.2.v20110505-1300 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build.xml compile dist undeploy deploy reload test-compile test seleniumtest gen" />
+
+          <property name="java.class.path" value="D:\Tomcat 7.0\lib\catalina-ant.jar;D:\Tomcat 7.0\lib\tomcat-coyote.jar;D:\Tomcat 7.0\lib\tomcat-util.jar;D:\Tomcat 7.0\bin\tomcat-juli.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-antlr.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-bcel.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-bsf.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-log4j.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-oro.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-regexp.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-resolver.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-xalan2.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-commons-logging.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-commons-net.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jai.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-javamail.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jdepend.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jmf.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jsch.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-junit.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-junit4.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-launcher.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-netrexx.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-swing.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-testutil.jar;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\56\1\.cp\lib\antdebug.jar;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\56\1\.cp\lib\remote.jar;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\57\1\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.7.0_79\lib\tools.jar;D:\Eclise Indigo-2.4\plugins\org.eclipse.swt.win32.win32.x86_3.7.1.v3738a.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.9 compiled on February 2 2017" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="eclipse.pdebuild.home" value="/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\18982\AppData\Local\Temp\" />
+
+          <property name="deploy.path" value="/ContinousIntegration" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="project-name" value="ContinousIntegration" />
+
+          <property name="basedir" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="compile,dist,undeploy,deploy,reload,test-compile,test,seleniumtest,gen" />
+
+          <property name="test-reports" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build\test-reports" />
+
+      </properties>
+
+      <testcase classname="com.hexaware.junit.JunitSampleTest" name="test_method_1" time="0.0" />
+
+      <testcase classname="com.hexaware.junit.JunitSampleTest" name="test_method_2" time="0.0" />
+
+      <system-out><![CDATA[@ - runOnceBeforeClass
+@Before - runBeforeTestMethod
+@Test - test_method_1
+@After - runAfterTestMethod
+@Before - runBeforeTestMethod
+@Test - test_method_2
+@After - runAfterTestMethod
+@AfterClass - runOnceAfterClass
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="EBIII213F2" id="2" name="SeleniumTest" package="com.hexaware.junit" skipped="0" tests="1" time="13.525" timestamp="2017-04-28T05:59:17">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="appserver.lib" value="D:/Tomcat 7.0/lib" />
+
+          <property name="ant.file.ContinousIntegration" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build.xml" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes" />
+
+          <property name="test-classes" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build\test-classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Eclise Indigo-2.4\plugins\org.apache.ant_1.8.2.v20110505-1300" />
+
+          <property name="java.runtime.version" value="1.7.0_79-b15" />
+
+          <property name="user.name" value="18982" />
+
+          <property name="tomcat.manager.url" value="http://localhost:8089/manager/text" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ant.project.name" value="ContinousIntegration" />
+
+          <property name="ant.file.type.ContinousIntegration" value="file" />
+
+          <property name="java.version" value="1.7.0_79" />
+
+          <property name="classes" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build\classes" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed" />
+
+          <property name="appserver.home" value="D:/Tomcat 7.0" />
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_79\jre" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="ant.file" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="tomcat.manager.password" value="admin" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="24.79-b02" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Eclise Indigo-2.4\plugins\org.apache.ant_1.8.2.v20110505-1300\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="tomcat.manager.username" value="admin" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts/" />
+
+          <property name="user.home" value="C:\Users\18982" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="D:\Eclise Indigo-2.4;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Program Files\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Borland\StarTeam SDK 11.0\Lib;C:\Program Files\Borland\StarTeam SDK 11.0\Bin;C:\Users\18982\Desktop\Selenium\Jar Files\selenium-java-2.52.0\selenium-2.52.0\libs;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\nodejs\;C:\Program Files\WebEx\Productivity Tools;%JAVA_HOME%bin;C:\Users\18982\Desktop\gradle-2.12\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;D:\Maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;%ANT_HOME%\bin;C:\Users\18982\AppData\Roaming\npm;D:\Eclise Indigo-2.4;;.;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\596\1\.cp" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="builder" value="ContinousIntegration" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1493359067297 -Declipse.connect.port=58924 -Declipse.pdebuild.home=/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/./ -Declipse.pdebuild.scripts=/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts/ -Declipse.pdebuild.templates=/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates/ -Dant.home=D:\Eclise Indigo-2.4\plugins\org.apache.ant_1.8.2.v20110505-1300 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build.xml compile dist undeploy deploy reload test-compile test seleniumtest gen" />
+
+          <property name="java.class.path" value="D:\Tomcat 7.0\lib\catalina-ant.jar;D:\Tomcat 7.0\lib\tomcat-coyote.jar;D:\Tomcat 7.0\lib\tomcat-util.jar;D:\Tomcat 7.0\bin\tomcat-juli.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-antlr.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-bcel.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-bsf.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-log4j.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-oro.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-regexp.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-resolver.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-xalan2.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-commons-logging.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-commons-net.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jai.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-javamail.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jdepend.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jmf.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jsch.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-junit.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-junit4.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-launcher.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-netrexx.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-swing.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-testutil.jar;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\56\1\.cp\lib\antdebug.jar;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\56\1\.cp\lib\remote.jar;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\57\1\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.7.0_79\lib\tools.jar;D:\Eclise Indigo-2.4\plugins\org.eclipse.swt.win32.win32.x86_3.7.1.v3738a.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.9 compiled on February 2 2017" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="eclipse.pdebuild.home" value="/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\18982\AppData\Local\Temp\" />
+
+          <property name="deploy.path" value="/ContinousIntegration" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="project-name" value="ContinousIntegration" />
+
+          <property name="basedir" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="compile,dist,undeploy,deploy,reload,test-compile,test,seleniumtest,gen" />
+
+          <property name="test-reports" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build\test-reports" />
+
+      </properties>
+
+      <testcase classname="com.hexaware.junit.SeleniumTest" name="testChromeSelenium" time="7.564" />
+
+      <system-out><![CDATA[Selenium Testing Started
+]]></system-out>
+
+      <system-err><![CDATA[Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 24360
+Only local connections are allowed.
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="EBIII213F2" id="3" name="SeleniumValidationTesting" package="com.hexaware.junit" skipped="0" tests="1" time="13.665" timestamp="2017-04-28T05:59:03">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="appserver.lib" value="D:/Tomcat 7.0/lib" />
+
+          <property name="ant.file.ContinousIntegration" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build.xml" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes" />
+
+          <property name="test-classes" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build\test-classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Eclise Indigo-2.4\plugins\org.apache.ant_1.8.2.v20110505-1300" />
+
+          <property name="java.runtime.version" value="1.7.0_79-b15" />
+
+          <property name="user.name" value="18982" />
+
+          <property name="tomcat.manager.url" value="http://localhost:8089/manager/text" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ant.project.name" value="ContinousIntegration" />
+
+          <property name="ant.file.type.ContinousIntegration" value="file" />
+
+          <property name="java.version" value="1.7.0_79" />
+
+          <property name="classes" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build\classes" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed" />
+
+          <property name="appserver.home" value="D:/Tomcat 7.0" />
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_79\jre" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="ant.file" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="tomcat.manager.password" value="admin" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="24.79-b02" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Eclise Indigo-2.4\plugins\org.apache.ant_1.8.2.v20110505-1300\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="tomcat.manager.username" value="admin" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts/" />
+
+          <property name="user.home" value="C:\Users\18982" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="D:\Eclise Indigo-2.4;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Program Files\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Borland\StarTeam SDK 11.0\Lib;C:\Program Files\Borland\StarTeam SDK 11.0\Bin;C:\Users\18982\Desktop\Selenium\Jar Files\selenium-java-2.52.0\selenium-2.52.0\libs;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\nodejs\;C:\Program Files\WebEx\Productivity Tools;%JAVA_HOME%bin;C:\Users\18982\Desktop\gradle-2.12\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;D:\Maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;%ANT_HOME%\bin;C:\Users\18982\AppData\Roaming\npm;D:\Eclise Indigo-2.4;;.;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\596\1\.cp" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="builder" value="ContinousIntegration" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1493359067297 -Declipse.connect.port=58924 -Declipse.pdebuild.home=/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/./ -Declipse.pdebuild.scripts=/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts/ -Declipse.pdebuild.templates=/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates/ -Dant.home=D:\Eclise Indigo-2.4\plugins\org.apache.ant_1.8.2.v20110505-1300 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build.xml compile dist undeploy deploy reload test-compile test seleniumtest gen" />
+
+          <property name="java.class.path" value="D:\Tomcat 7.0\lib\catalina-ant.jar;D:\Tomcat 7.0\lib\tomcat-coyote.jar;D:\Tomcat 7.0\lib\tomcat-util.jar;D:\Tomcat 7.0\bin\tomcat-juli.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-antlr.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-bcel.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-bsf.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-log4j.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-oro.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-regexp.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-resolver.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-xalan2.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-commons-logging.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-commons-net.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jai.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-javamail.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jdepend.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jmf.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jsch.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-junit.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-junit4.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-launcher.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-netrexx.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-swing.jar;D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-testutil.jar;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\56\1\.cp\lib\antdebug.jar;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\56\1\.cp\lib\remote.jar;D:\Eclise Indigo-2.4\configuration\org.eclipse.osgi\bundles\57\1\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.7.0_79\lib\tools.jar;D:\Eclise Indigo-2.4\plugins\org.eclipse.swt.win32.win32.x86_3.7.1.v3738a.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.9 compiled on February 2 2017" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="eclipse.pdebuild.home" value="/D:/Eclise Indigo-2.4/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\18982\AppData\Local\Temp\" />
+
+          <property name="deploy.path" value="/ContinousIntegration" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="project-name" value="ContinousIntegration" />
+
+          <property name="basedir" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="D:\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="compile,dist,undeploy,deploy,reload,test-compile,test,seleniumtest,gen" />
+
+          <property name="test-reports" value="D:\VectorWorkSpace\ContinousIntegration\ContinousIntegrationGit\build\test-reports" />
+
+      </properties>
+
+      <testcase classname="com.hexaware.junit.SeleniumValidationTesting" name="testChromeSelenium" time="5.887" />
+
+      <system-out><![CDATA[Selenium Validation Testing Started
+Test Failed
+]]></system-out>
+
+      <system-err><![CDATA[Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 20128
+Only local connections are allowed.
+]]></system-err>
+
+  </testsuite>
+</testsuites>
